@@ -1,0 +1,8 @@
+- Estando na pasta DigitalLogic, compile:
+ozc -c DigitalLogicFunctor.oz
+
+- Depois:
+ozc -c MainFunctor.oz -o MainFunctor.oza
+
+- E para executar:
+ozengine MainFunctor.oza --in http://www.mozart-oz.org/LICENSE --out LICENSE

@@ -1,0 +1,6 @@
+- Para compilar o functor que será executado, estando na pasta Parser, execute:
+ozc -c ParserFunctor.oz -o ParserFunctor.oza
+
+- E para executar:
+
+ozengine ParserFunctor.oza --in http://www.mozart-oz.org/LICENSE --out LICENSE

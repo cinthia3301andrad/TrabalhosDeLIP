@@ -1,0 +1,12 @@
+- Primeiro, estando na pasta "Tree", utilize o seguinte comando para compilar o TreeFunctor.oz e gerar um TreeFunctor.ozf
+ozc -c TreeFunctor.oz
+
+- Depois execute o seguinte comando para compilar o programa principal e gerar o executável MainFunctor.oza:
+
+ozc -c MainFunctor.oz -o MainFunctor.oza
+
+- Pronto! Agora que compilou, basta executar, para isso utilize: 
+ozengine MainFunctor.oza --in http://www.mozart-oz.org/LICENSE --out LICENSE
+
+- Ou, simplismente:
+ozengine MainFunctor.oza
